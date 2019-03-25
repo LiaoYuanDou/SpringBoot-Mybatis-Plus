@@ -126,7 +126,7 @@ public class MybatisPlusGeneratorCode {
         //strategy.setSuperControllerClass("com.baomidou.ant.common.BaseController");
         //需要包含的表名，允许正则表达式
         //strategy.setInclude(scanner("user"));
-        strategy.setInclude("t_user");
+        strategy.setInclude("t_sys_user");
         //自定义基础的Entity类，公共字段
         //strategy.setSuperEntityColumns("id");
         //驼峰转连字符
