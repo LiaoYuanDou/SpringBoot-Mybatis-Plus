@@ -6,7 +6,7 @@ spring:
     name: mybatisplus
   datasource:
     name: test
-    url: jdbc:mysql://localhost:3306/mybatis-plus?characterEncoding=utf8&useSSL=true
+    url: jdbc:mysql://localhost:3306/mybatis-plus?characterEncoding=utf8&useSSL=true&serverTimezone=GMT%2B8
     username: root
     password: root
     #使用druid数据源
